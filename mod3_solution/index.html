@@ -2,9 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Food, LLC</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css?v=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">'
 </head>
 <body>
-  <script src="js/scripts.js"></script>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <h1>Food, LLC</h1>
+          </div>
+          <div class="navbar-menu visible-xs"  role="navigation" >
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+              <ul id="nav-list" class="nav navbar-nav navbar-left">
+                <li><a href="#chicken"> Chicken</a></li>
+                <li><a href="#beef"> Beef</a></li>
+                <li><a href="#sushi"> Sushi</a></li>
+              </ul>  <!-- #nav-list -->
+            </div>   <!-- .collapse .navbar-collapse -->
+          </div>     <!-- .navbar-menu -->
+        </div>       <!-- .main-menu -->
+      </div>         <!-- .container -->
+    </nav>    
+
+
+  <!-- Main content -->
+  <div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+    <section class="row">
+      
+      <div class="menu-item-tile col-lg-4 col-md-6">
+        <div id="chicken" class="protein row">
+          <div class="menu-item-description"> 
+            <h3 class="menu-item-title">Chicken</h3>
+            <div class="menu-item-detail"><p>Lorem ipsum dolor sit amet, cum nemore vituperata in. Id has quidam petentium assentior. Aperiri suscipit usu at, id vero idque eum. Pro molestie expetendis ex, eum mundi consectetuer signiferumque ex.</p><p>Duo ad quodsi blandit repudiandae, ea pri idque vituperata interesset. Tritani persecuti pro et, per in tation maiestatis. Pri at tota sanctus nusquam, nec erant verear et. Aeque euripidis ad eos. Cu vix praesent gubergren.</p><p>Duo cu eros fugit consequat, et viris eripuit cum. Facete labitur vulputate mel eu, an mucius facilisi has. Dicit consectetuer ius eu, maiestatis sadipscing quo ut, cum ea meliore epicurei torquatos. No vis dicit expetenda, an mucius adipiscing comprehensam sed.</p></div>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-lg-4 col-md-6">
+        <div id="beef" class="protein row">
+          <div class="menu-item-description"> 
+            <h3 class="menu-item-title">Beef</h3>
+            <div class="menu-item-detail"><p>Lorem ipsum dolor sit amet, cum nemore vituperata in. Id has quidam petentium assentior. Aperiri suscipit usu at, id vero idque eum. Pro molestie expetendis ex, eum mundi consectetuer signiferumque ex.</p><p>Duo ad quodsi blandit repudiandae, ea pri idque vituperata interesset. Tritani persecuti pro et, per in tation maiestatis. Pri at tota sanctus nusquam, nec erant verear et. Aeque euripidis ad eos. Cu vix praesent gubergren.</p><p>Duo cu eros fugit consequat, et viris eripuit cum. Facete labitur vulputate mel eu, an mucius facilisi has. Dicit consectetuer ius eu, maiestatis sadipscing quo ut, cum ea meliore epicurei torquatos. No vis dicit expetenda, an mucius adipiscing comprehensam sed.</p></div>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+
+      <div class="menu-item-tile col-lg-4 col-md-12">
+        <div id="sushi" class="protein row">
+          <div class="menu-item-description"> 
+            <h3 class="menu-item-title">Sushi</h3>
+            <div class="menu-item-detail"><p>Lorem ipsum dolor sit amet, cum nemore vituperata in. Id has quidam petentium assentior. Aperiri suscipit usu at, id vero idque eum. Pro molestie expetendis ex, eum mundi consectetuer signiferumque ex.</p><p>Duo ad quodsi blandit repudiandae, ea pri idque vituperata interesset. Tritani persecuti pro et, per in tation maiestatis. Pri at tota sanctus nusquam, nec erant verear et. Aeque euripidis ad eos. Cu vix praesent gubergren.</p><p>Duo cu eros fugit consequat, et viris eripuit cum. Facete labitur vulputate mel eu, an mucius facilisi has. Dicit consectetuer ius eu, maiestatis sadipscing quo ut, cum ea meliore epicurei torquatos. No vis dicit expetenda, an mucius adipiscing comprehensam sed.</p></div>
+          </div>
+        </div>
+        <hr class="visible-xs">
+      </div>
+    </section>
+  </div>
+    
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
