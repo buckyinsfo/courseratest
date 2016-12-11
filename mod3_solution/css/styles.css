@@ -55,10 +55,18 @@ body {
 
 .menu-item-tile .menu-item-description {
   background-color: #989A98;
-  padding: 10px;
-  margin: 10px;
+  padding: 17px;
+  margin: 7px;
 }
 
 .menu-item-tile .menu-item-description .menu-item-title {
   text-align: center;
+}
+
+.menu-item-detail a {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  //border: 2px solid #FFFFFF;
+  margin-top: -10px;
 }
